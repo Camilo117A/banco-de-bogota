@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Bogotá</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-bb">BB</div>
+        <div class="logo-texto">Banco de <span>Bogotá</span></div>
+    </header>
+
+    <!-- IMAGEN HERO + BOTONES NAV LATERALES -->
+    <div class="hero-wrapper">
+        <img src="img/banco_de_bogota.jpg" alt="Banco de Bogotá">
+        <div class="nav-lateral">
+            <a href="index.html" title="Inicio">&#127968;</a>
+            <a href="/view/servicios.html" title="Servicios">&#128222;</a>
+            <a href="/view/contacto.html" title="Contacto">&#9993;</a>
+        </div>
+    </div>
+
+    <!-- NOTICIAS + VIDEO -->
+    <div class="contenedor">
+        <div class="fila-noticias">
+
+            <div class="noticias">
+                <h2>Sección de noticias</h2>
+
+                <div class="noticia-item">
+                    Banco de Bogotá lanza nueva plataforma digital para pymes. El banco presentó su nueva herramienta de banca digital diseñada para pequeñas y medianas empresas del país, facilitando el acceso a créditos y servicios financieros en línea.
+                </div>
+                <div class="noticia-item">
+                    Apertura de nuevas sucursales en el Caribe colombiano. Con el objetivo de ampliar su cobertura, el Banco de Bogotá inauguró cinco nuevas sucursales en los departamentos de Atlántico, Bolívar y Cesar, beneficiando a más de 200.000 nuevos clientes.
+                </div>
+
+            <!-- AUDIO / VIDEO pequeño como en el mockup -->
+            <div class="video-col">
+                <div class="audio-bar">
+                    &#9654; 0:00 / 2:54 <span></span> &#128266; 1
+                </div>
+                <video width="100%" height="160" controls style="border:1px solid #d0d0d0;">
+                    <source src="" type="video/mp4">
+                    Su navegador no soporta video HTML5.
+                </video>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <div class="contenedor">
+        <div class="seccion-form">
+            <h2>Formulario de contacto</h2>
+
+            <div class="campo">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Your username...">
+            </div>
+
+            <div class="campo">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Your password...">
+            </div>
+
+            <div class="campo">
+                <label for="rol">Rol</label>
+                <select id="rol" name="rol">
+                    <option value="administrador">Administrador</option>
+                    <option value="cliente">Cliente</option>
+                    <option value="asesor">Asesor</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </div>
+    </div>
+
+    <!-- VIDEO YOUTUBE + MAPA GOOGLE -->
+    <div class="contenedor">
+        <div class="fila-media">
+
+            <div>
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Canal Banco de Bogotá"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7744445895377!2d-74.0820786!3d4.6097101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9985bfb00001%3A0x40e35bcbc02a0d9!2sBanco%20de%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1710000000000"
+                    title="Ubicación Banco de Bogotá"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Página web realizada para fines netamente académicos por: Calletana López Baleta &copy; 2026</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/BancoDeBogota" target="_blank" title="Facebook">f</a>
+            <a href="https://pinterest.com" target="_blank" title="Pinterest">p</a>
+            <a href="https://www.instagram.com/bancobogota" target="_blank" title="Instagram">in</a>
+        </div>
+    </footer>
+
+</body>
+</html>
